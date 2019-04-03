@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 0.776 sec <<< FAILURE!
+Given rejsekort with balance of 100(Scenario: Successfull check-in)  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at StepDefinition.rejsekortWithBalanceOf(StepDefinition.java:18)
+	at ?.Given rejsekort with balance of 100(Checkin.feature:25)
+
+Scenario: Successfull check-in  Time elapsed: 0.014 sec  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at StepDefinition.rejsekortWithBalanceOf(StepDefinition.java:18)
+	at ?.Given rejsekort with balance of 100(Checkin.feature:25)
+
